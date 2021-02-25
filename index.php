@@ -24,10 +24,10 @@ require_once("config/db.php");
     <link rel="stylesheet" href="//cdn.jsdelivr.net/combine/npm/foundation-sites@6.6.3/dist/css/foundation.min.css,npm/foundation-sites@6.6.3/dist/css/foundation-float.min.css,npm/foundation-sites@6.6.3/dist/css/foundation-prototype.min.css">
     <meta name="theme-color" content="#fafafa">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="icon" type="image/png" href="favicon-32x32.png">
-    <link rel="shortcut-icon" type="image/png" href="android-chrome-192x192.png">
-    <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png">
+    <link rel="shortcut-icon" type="image/png" href="favicons/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" href="favicons/apple-touch-icon.png">
 </head>
 
 <body>
