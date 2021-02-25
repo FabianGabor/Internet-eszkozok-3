@@ -1,0 +1,9 @@
+vezeteknev:Fábián
+keresztnev:Gábor
+szuletes:1987-02-26
+email:a@a.a
+jelszo:d840d198261d391853e1d0cc2b825eb307a3c7c8f723799c5f0f7f73b6b2bca62b381734aae252bf1e2ab7e5efb80f4ee9d2a61d89f7eb5858c17f8e76f83b54
+jelszo_ujra:d840d198261d391853e1d0cc2b825eb307a3c7c8f723799c5f0f7f73b6b2bca62b381734aae252bf1e2ab7e5efb80f4ee9d2a61d89f7eb5858c17f8e76f83b54
+nem:ferfi
+leiras:Rövid leírás
+gdpr:on
