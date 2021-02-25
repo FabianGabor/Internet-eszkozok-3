@@ -169,3 +169,5 @@ modules.xml
 # End of https://www.toptal.com/developers/gitignore/api/phpstorm,phpstorm+all
 
 *.zip
+
+config/mysql
