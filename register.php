@@ -16,7 +16,7 @@
  * Szuperglobalis tombok:
  * $_POST, $_GET, $_SESSION, $_SERVER, $_COOKIE
  */
-print_r(hash_algos());
+//print_r(hash_algos());
 $hiba = null;
 if (isset($_POST['vezeteknev'])) {
     if (
@@ -38,11 +38,12 @@ if (isset($_POST['vezeteknev'])) {
         echo $hiba;
     }
 }
-
+/*
 if (filesize('post.txt') > 0) {
     $file = file_get_contents('post.txt');
     echo $file;
 }
+*/
 ?>
 
 <form action="controller/register.php" method="post">
