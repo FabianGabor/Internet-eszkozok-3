@@ -45,7 +45,7 @@ if (filesize('post.txt') > 0) {
 }
 ?>
 
-<form action="" method="post">
+<form action="controller/register.php" method="post">
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
 
