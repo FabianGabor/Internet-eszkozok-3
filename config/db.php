@@ -10,5 +10,5 @@ if ($dbcon->connect_error) {
     print 'Sikertelen adatbázis kapcsolódás';
     die ('Sikertelen adatbázis kapcsolódás') . $dbcon->connect_error;
 } else {
-    print 'Sikeres adatbázis kapcsolódás';
+    print 'Sikeres adatbázis kapcsolódás. Ping: ' . $dbcon->ping();
 }
