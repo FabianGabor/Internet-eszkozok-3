@@ -88,8 +88,8 @@ if (filesize('post.txt') > 0) {
             <div class="medium-6 cell">
                 <fieldset class="large-12 cell">
                     <legend>Neme</legend>
-                    <input type="radio" name="nem" value="ferfi" id="nemFerfi"><label for="nemFerfi">Férfi</label>
-                    <input type="radio" name="nem" value="no" id="nemNo"><label for="nemNo">Nő</label>
+                    <input type="radio" name="nem" value="férfi" id="nemFerfi"><label for="nemFerfi">Férfi</label>
+                    <input type="radio" name="nem" value="nő" id="nemNo"><label for="nemNo">Nő</label>
                 </fieldset>
             </div>
 
