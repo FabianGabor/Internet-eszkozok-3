@@ -4,46 +4,6 @@
  * CXNU8T
  * https://github.com/FabianGabor/Internet-eszkozok-2
  */
-
-/*
- * $ valtozo
- * $tomb = array();
- * $tomb = array(1,2,3);
- * $tomb[] = 'alma';
- * $tomb[5] = 'szilva';
- * $tomb = array('elso_index' => 'ertek', 'masodik_index' => 'ertek'); // asszociativ
- *
- * Szuperglobalis tombok:
- * $_POST, $_GET, $_SESSION, $_SERVER, $_COOKIE
- */
-//print_r(hash_algos());
-$hiba = null;
-if (isset($_POST['vezeteknev'])) {
-    if (
-        !empty($_POST['email']) &&
-        !empty($_POST['jelszo']) &&
-        !empty($_POST['jelszo_ujra']) &&
-        isset($_POST['gdpr'])
-    ) {
-        var_dump($_POST);
-
-        foreach ($_POST as $index=>$val) {
-            if ($index == "jelszo" || $index == "jelszo_ujra")
-                $val = hash('sha3-512', $val);
-            file_put_contents('post.txt', $index . ":" . $val . "\n", FILE_APPEND);
-        }
-    }
-    else {
-        $hiba = "Kotelezo mezok!";
-        echo $hiba;
-    }
-}
-/*
-if (filesize('post.txt') > 0) {
-    $file = file_get_contents('post.txt');
-    echo $file;
-}
-*/
 ?>
 
 <form action="controller/register.php" method="post">
