@@ -27,14 +27,15 @@ foreach ($_POST as $key => $value) {
 
 /*
 $table = "felhasznalok";
-$cols = "vezeteknev, keresztnev, email, jelszo";
-$vals = "'{$vezeteknev}','{$keresztnev}','{$email}', '{$jelszo}'";
-//$sql = 'INSERT INTO . $table . (. $cols .) . " VALUES ("{$vezeteknev}", "{$keresztnev}", "{$email}", "{$jelszo}")";
+$cols = "vezeteknev, keresztnev, szuletes, email, jelszo, nem, leiras";
+$vals = "'$vezeteknev','$keresztnev', '$szuletes', '$email', '$jelszo', '$nem', '$leiras'";
+$sql = "INSERT INTO $table ($cols) VALUES ($vals)";
 $sql = "INSERT INTO '$table.$cols'";
 print "<br>";
 print $sql;
 
 //$mysqli->query($sql);
+$sql = "INSERT INTO felhasznalok (vezeteknev, keresztnev, email, jelszo) VALUES ('{$vezeteknev}', '{$keresztnev}', '{$email}', '{$jelszo}')";
 */
 
 $sql = "INSERT INTO felhasznalok (vezeteknev, keresztnev, email, jelszo) VALUES ('{$vezeteknev}', '{$keresztnev}', '{$email}', '{$jelszo}')";
