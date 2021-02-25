@@ -8,6 +8,4 @@ $dbcon = new mysqli($host, $user, $password, $db);
 
 if ($dbcon->connect_error) {
     die ('Sikertelen adatbázis kapcsolódás') . $dbcon->connect_error;
-} else {
-    print 'Sikeres adatbázis kapcsolódás. Ping: ' . $dbcon->ping();
 }
