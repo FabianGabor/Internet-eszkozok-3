@@ -5,6 +5,9 @@
  * https://github.com/FabianGabor/Internet-eszkozok-2
  */
  ?>
+<?php
+require_once('config/db.php');
+?>
 <!doctype html>
 <html class="no-js" lang="hu">
 
