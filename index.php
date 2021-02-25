@@ -13,7 +13,7 @@ require_once('config/db.php');
 
 <head>
     <meta charset="utf-8">
-    <title>Portal</title>
+    <title>Portál</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--
